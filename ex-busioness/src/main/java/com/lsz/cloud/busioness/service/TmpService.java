@@ -14,7 +14,7 @@ public class TmpService {
 
     public String tmp() {
         ResponseInfo<String> val = tmpApi.tmp();
-        return val.getData();
+        return val.getData() + " busioness";
         //return "busioness TmpService do";
     }
 }

@@ -12,6 +12,7 @@
         <module>ex-eureka</module>
         <module>ex-apply</module>
         <module>ex-busioness</module>
+        <module>ex-gateway-admin</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -95,10 +96,22 @@
                 <version>2.6</version>
             </dependency>
             <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.47</version>
+            </dependency>
+            <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>1.16.10</version>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>3.8.1</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
     <repositories>
